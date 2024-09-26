@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+    <title></title>
+    <style>
+      body{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        background-color: #000000;
+        min-height: 100vh;
+        
+      }
+      .wrapper{
+        width: 70%;
+        height: 60vh;
+        background-color: white;
+        position: relative;
+        border-radius: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        
+      }
+      h1{
+        font-size: 36px;
+        text-align: center;
+      }
+      .line .move{
+        width: 60px;
+        height: 5px;
+        background-color: purple;
+        margin-left: 100px;
+        margin-bottom: 20px;
+      }
+      .wrapper .input-box{
+        width:100%;
+        height: 40px;
+        margin: 30px 0;
+        border: 2px;
+        
+      }
+      .input-box input{
+    width: 85%;
+    height: 30px;
+        border: 1px solid grey;
+        outline: none;
+        padding: 5px 10px 5px 5px;
+        border-radius: 5px;
+      }
+     .wrapper .reminder{
+       display: flex;
+       justify-content: space-between;
+       font-size: 14.5px;
+       margin: -15px 0 15px;
+       padding: 5px;
+        
+      }
+      .submit{
+        display: flex;
+        justify-content: center;
+      }
+      .submit button{
+        width: 300px;
+        height: 30px;
+        border-radius: 20px;
+        border: none;
+        background-color: purple;
+        color: white;
+      }
+      .icons{
+        display: flex;
+        justify-content: center;
+  
+      }
+      .icons i{
+        font-size: 30px;
+        display:flex;
+        justify-content: space-between;
+        margin-inline: 7px;
+      }
+      .footers l1{
+        display: inline;
+        justify-content: space-between;
+        margin: 15px 0 15px;
+        font-size: 14.5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form">
+        <form action="">
+          <h1>Log In</h1>
+          <div class="line">
+            <div class="move"></div>
+          </div>
+<div class="icons">
+<i class="fa fa-facebook-square" aria-hidden="true"></i>
+<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+<i class="fa fa-twitter-square" aria-hidden="true"></i>
+          </div>
+          <div class="input-box">
+            <label for="email"><b>Email</b></label>
+            <input type="text" id="email" placeholder="email" "required">
+            
+          </div>
+          <div class="input-box">
+            <label for="password"><b>Password</b></label>
+            <input type="password" id="password" placeholder="password" "required">
+            
+          </div>
+          <div class="reminder">
+            <label><input type="checkbox"><b>Remember me</b></label>
+            <a href="#" style="color:black"><b>Forgot Password</b></a>
+          </div>
+          <div class="submit">
+            <button>Submit</button>
+          </div>
+          <div class="footer">
+             <ul class="footers">
+               <l1><a href="#" style="color:black"><b>Privacy policy</b></a></l1>
+ <l1><a href="#" style="color:black"><b>Terms & Condition</b></a></l1>
+             </ul>
+           
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
